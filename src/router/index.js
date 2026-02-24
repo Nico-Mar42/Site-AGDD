@@ -1,4 +1,3 @@
-import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/page/home.vue'
 import Presentation from '../components/page/Association/Presentation.vue'
 import Agenda from '../components/page/Association/Agenda.vue'
@@ -8,6 +7,9 @@ import Global from '../components/page/Twitch/Global.vue'
 import Dragons from '../components/page/Twitch/actual_play/dragons/Dragons.vue'
 import Cyberpunk from '../components/page/Twitch/actual_play/cyberpunk/Cyberpunk.vue'
 import terra from '../components/page/Twitch/actual_play/terra_nova/Terra_nova.vue'
+import { createRouter, createWebHashHistory } from 'vue-router' // Changez createWebHistory par createWebHashHistory
+
+
 // ... autres imports de pages
 const routes = [
   { path: '/', component: Home },
@@ -23,7 +25,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
 

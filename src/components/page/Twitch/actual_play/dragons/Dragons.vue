@@ -35,40 +35,35 @@
       <widget-AP-button 
         title= "Eolzranth"
         text="Eolzranth"
-        button="/src/assets/dragons/eolzranth.png"
-        to="/twitch/dragons"
+        :button="EolImg"
         Colors="white"
         :OnPress="() => openZoom('eolzranth')" 
       />
       <widget-AP-button 
         title= "Antani"
         text="Antani"
-        button="/src/assets/dragons/antani.png"
-        to="/twitch/dragons"
+        :button="AntaniImg"
         Colors="white"
         :OnPress="() => openZoom('antani')"
       />
       <widget-AP-button 
         title= "Abyss"
         text="Abyss"
-        button="/src/assets/dragons/abyss.png"
-        to="/twitch/dragons"
+        :button="AbyssImg"
         Colors="white"
         :OnPress="() => openZoom('abyss')"
       />
       <widget-AP-button 
         title= "Hebor"
         text="Hebor"
-        button="/src/assets/dragons/hebor.png"
-        to="/twitch/dragons"
+        :button="HeborImg"
         Colors="white"
         :OnPress="() => openZoom('hebor')"
       />
       <widget-AP-button 
         title= "Thalanir"
         text="Thalanir"
-        button="/src/assets/dragons/thalanir.png"
-        to="/twitch/dragons"
+        :button="ThalanirImg"
         Colors="white"
         :OnPress="() => openZoom('thalanir')"
       />
@@ -161,6 +156,14 @@ import { ref } from 'vue'
 import bg from '../../../../../assets/dragons/dragons_bg.png'
 import widgetAPButton from './dragons_Perso_button.vue'
 import zoomPerso from './zoom_perso.vue'
+import EolImg from '../../../../../assets/dragons/eolzranth.png'
+import AntaniImg from '../../../../../assets/dragons/antani.png'
+import AbyssImg from '../../../../../assets/dragons/abyss.png'
+import HeborImg from '../../../../../assets/dragons/hebor.png'
+import ThalanirImg from '../../../../../assets/dragons/thalanir.png'
+
+
+
 const selectedPerso = ref(null)
 
 const openZoom = (P_name) => {

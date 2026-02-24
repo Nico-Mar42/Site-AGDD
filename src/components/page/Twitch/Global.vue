@@ -54,19 +54,19 @@
       >
       <widget-AP-button 
         text="Cyberpunk Red"
-        button="/src/assets/twitch/bouton/b_cyber.jpg"
+        :button="cyberImg"
         to="/twitch/cyberpunk"
         Colors="white"
       />
       <widget-AP-button 
         text="Dragons"
-        button="/src/assets/twitch/bouton/b_dragons.jpg"
+        :button="dragonsImg"
         to="/twitch/dragons"
         Colors="white"
       />
       <widget-AP-button 
         text="Terra Nova"
-        button="/src/assets/twitch/bouton/b_terra.jpg"
+        :button="terraImg"
         to="/twitch/terra-nova"
         Colors="white"
       />
@@ -130,6 +130,11 @@
 import bg from '../../../assets/twitch/cadre.png'
 import widgetAPButton from './widget_AP_button.vue'
 import { onMounted } from 'vue'
+import cyberImg from '../../../assets/twitch/bouton/b_cyber.jpg'
+import dragonsImg from '../../../assets/twitch/bouton/b_dragons.jpg'
+import terraImg from '../../../assets/twitch/bouton/b_terra.jpg'
+
+
 
 const initPlayer = () => {
   if (window.Twitch) {

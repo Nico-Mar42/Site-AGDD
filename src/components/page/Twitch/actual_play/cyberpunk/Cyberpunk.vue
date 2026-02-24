@@ -34,32 +34,28 @@
       <widget-AP-button 
         title= "Lauren"
         text="Lauren"
-        button="/src/assets/cyberpunk/lauren.png"
-        to="/twitch/cyberpunk"
+        :button="laurenImg"
         Colors="white"
         :OnPress="() => openZoom('lauren')" 
       />
       <widget-AP-button 
         title= "Floppy"
         text="Floppydisk"
-        button="/src/assets/cyberpunk/floppy.png"
-        to="/twitch/dragons"
+        :button="floppyImg"
         Colors="white"
         :OnPress="() => openZoom('floppy')"
       />
       <widget-AP-button 
         title= "Maria"
         text="Maria"
-        button="/src/assets/cyberpunk/maria.png"
-        to="/twitch/terra-nova"
+        :button="mariaImg"
         Colors="white"
         :OnPress="() => openZoom('maria')"
       />
       <widget-AP-button 
         title= "Le Français"
         text="Le Français"
-        button="/src/assets/cyberpunk/francais.png"
-        to="/twitch/terra-nova"
+        :button="francaisImg"
         Colors="white"
         :OnPress="() => openZoom('francais')"
       />
@@ -152,6 +148,12 @@ import { ref } from 'vue'
 import bg from '../../../../../assets/twitch/cadre.png'
 import widgetAPButton from './cyber_Perso_button.vue'
 import zoomPerso from './zoom_perso.vue'
+import floppyImg from '../../../../../assets/cyberpunk/floppy.png'
+import laurenImg from '../../../../../assets/cyberpunk/lauren.png'
+import mariaImg from '../../../../../assets/cyberpunk/maria.png'
+import francaisImg from '../../../../../assets/cyberpunk/francais.png'
+
+
 const selectedPerso = ref(null)
 
 const openZoom = (P_name) => {
