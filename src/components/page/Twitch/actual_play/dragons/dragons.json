@@ -1,0 +1,53 @@
+{
+    
+    "eolzranth": {
+        "img": "/src/assets/dragons/eolzranth.png",
+        "Nom": " Eolzranth",
+        "race": " Drakeide de cuivre",
+        "Âge": " Iconnu",
+        "P_genre": "Joueur",
+        "joueur": "Idril",
+        "Rôles": " Guerrier, Élu arcanique",
+        "Description": "\nEolzranth est un guerrier drakéide de cuivre ayant survécu à un raid drow sur son village natal.\n\nSuite à ce tragique événement, il a choisi de parcourir le monde en quête d'aventure. Il est aujourd'hui animé par une volonté inébranlable d'aider son prochain et de protéger les plus faibles."
+        
+    },
+    "antani": {
+        "img": "/src/assets/dragons/antani.png",
+        "Nom": " Antani",
+        "race": " Ulkani",
+        "Âge": " Iconnu",
+        "P_genre": "Joueur",
+        "joueur": "SilverWolf",
+        "Rôles": " Lettré, Alchimiste",
+        "Description": "\nVenant des plaines du Grand Kaan, Antani est un Ulkan animé par une soif insatiable de savoir. Ce jeune lettré — un homme-bouc impressionnant de 3 mètres de haut — a rejoint un groupe d'aventuriers pour atteindre la Cité Franche, le cœur cosmopolite d'Eana.\n\nArmé de sa massue et de ses livres, il parcourt le monde avec curiosité et une pointe de naïveté, bien décidé à écrire la véritable histoire des récits qui l'habitent."
+    },
+    "hebor": {
+        "img": "/src/assets/dragons/hebor.png",
+        "Nom": " Hebor Terdinor",
+        "Âge": " Iconnu",
+        "race": " Drakeide de Bronze",
+        "P_genre": "Joueur",
+        "joueur": "Kelson",
+        "Rôles": " Druide, Cercle des esprits",
+        "Description": "\nArraché à sa famille avant même son éclosion, Hebor est un drakéide au destin singulier. Recueilli et élevé par un cercle druidique, il a embrassé la voie de la nature pour devenir druide à son tour.\n\nUne fois adulte, il s'est lancé dans l'aventure afin de lever le voile sur ses origines et retrouver ses racines."
+    },
+    "abyss": {
+        "img": "/src/assets/dragons/abyss.png",
+        "Nom": " Abyss",
+        "Âge": " Iconnu",
+        "race": "Tieffeline",
+        "P_genre": "Joueur",
+        "joueur": "Lagertha",
+        "Rôles": " Moniale, Maitresse de l'ivresse",
+        "Description": "\nXiaoyu Kang, plus connue sous le pseudonyme d'Abyss, est une Tieffeline à la peau violette et aux longs cheveux blancs. Ses yeux verts sans pupille et ses épaisses cornes de bouc marquent son apparence singulière.\n\nMoniale du Shi-Huang et prêtresse de Givreuse, elle allie les arts martiaux à la magie divine. Abyss voyage pour apprendre à maîtriser sa part d'ombre et trouver un remède efficace contre la propagation du Chancre."
+    },
+    "Thalanir": {
+        "img": "/src/assets/dragons/thalanir.png",
+        "Nom": " Thalanir Eryndor",
+        "Âge": " Iconnu",
+        "P_genre": "Joueur",
+        "joueur": "Konno",
+        "Rôles": " Rodeur, Chasseur",
+        "Description": "\nNé à Sairanil et élevé par des chasseurs, Thalanir a appris très tôt à écouter les murmures de la forêt.\n\nRôdeur solitaire, il protège désormais le Kaan, une terre où la nature est sacrée. Face à la menace du Chancre, il combat sans relâche les créatures corrompues, guidé par son fidèle griffon, Sélenth, et un puissant instinct de préservation."
+    }
+}

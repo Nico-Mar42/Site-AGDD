@@ -1,0 +1,39 @@
+{
+    
+    "francais": {
+        "img": "/src/assets/cyberpunk/francais.png",
+        "Nom": " Le français",
+        "Âge": " Iconnu",
+        "P_genre": "Joueur",
+        "joueur": "Draask",
+        "Rôles": " Techie",
+        "Description": "\nLe Français est un techie qui a grandi dans les rues malfamées de Night City.\nIl a malgré tout réussi à garder une humeur sympathique, bien qu'il puisse être grognon parfois.\nSa vie oscille entre missions dangereuses et périodes de calme où il bricole pour gagner sa vie.\nA-t-il un problème avec l'alcool ? C'est bien possible."
+    },
+    "lauren": {
+        "img": "/src/assets/cyberpunk/lauren.png",
+        "Nom": " Lauren",
+        "Âge": " Iconnu",
+        "P_genre": "Joueur",
+        "joueur": "Lagertha",
+        "Rôles": " Rockeuse",
+        "Description": ""
+    },
+    "floppy": {
+        "img": "/src/assets/cyberpunk/floppy.png",
+        "Nom": " Floppydisk",
+        "Âge": " Iconnu",
+        "P_genre": "Joueur",
+        "joueur": "Kelson",
+        "Rôles": " NetRunner",
+        "Description": "\nFloppydisk, originaire de Singapour, a perdu ses parents lors de la 4ème guerre corpo.\nLui et sa sœur ont été vendus à des trafiquants d'êtres humains.\nAprès s'être échappé, Floppy a vécu dans la clandestinité, devenant Netrunner.\nSon objectif : retrouver sa sœur. Ses recherches l'ont conduit à Night City, où il la cherche toujours."
+    },
+    "maria": {
+        "img": "/src/assets/cyberpunk/maria.png",
+        "Nom": " Maria Esperenza",
+        "Âge": " Iconnu",
+        "P_genre": "Joueur",
+        "joueur": "Konno",
+        "Rôles": " Solo",
+        "Description": "\nMaria Esperenza n'a pas eu la vie facile : à l'âge de 14 ans, sa famille fut tuée. Elle n'était pas présente lors de l'assassinat de sa famille.\n c'est elle qui a découvert les corps de ses parents et de ses deux frères.\nNe vous fiez pas à son joli minois, car derrière chacun de ses sourires pourrait se cacher une lame bien aiguisée."    }
+    
+}
