@@ -15,7 +15,7 @@
             <div 
           
                 class="flex flex-row items-center justify-center gap-4">
-                <img :src="character?.img" alt="Image du personnage"
+                <img :src="img" alt="Image du personnage"
                 style="width: 10rem; height: 12rem;"
                 >
                 <div class="flex flex-col items-start justify-center gap-2">
@@ -45,7 +45,7 @@
 <script setup>
 import { computed } from 'vue'
 import data from './dragons.json'
-
+import img from character?.img
 const props = defineProps({
     Name: String,
 })
