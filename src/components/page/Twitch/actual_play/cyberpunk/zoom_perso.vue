@@ -42,6 +42,10 @@
 <script setup>
 import { computed } from 'vue'
 import data from './cyberpunk.json'
+import floppyImg from '../../../../../assets/cyberpunk/floppy.png'
+import laurenImg from '../../../../../assets/cyberpunk/lauren.png'
+import mariaImg from '../../../../../assets/cyberpunk/maria.png'
+import francaisImg from '../../../../../assets/cyberpunk/francais.png'
 
 const props = defineProps({
     Name: String,
@@ -50,6 +54,23 @@ const props = defineProps({
 defineEmits(['close'])
 
 const character = computed(() => {
-    return data[props.Name] || null
+    const char = data[props.Name] || null
+    if (char) {
+        switch(props.Name) {
+            case 'floppy':
+                char.img = floppyImg
+                break
+            case 'lauren':
+                char.img = laurenImg
+                break
+            case 'maria':
+                char.img = mariaImg
+                break
+            case 'francais':
+                char.img = francaisImg
+                break
+        }
+    }
+    return char
 })
 </script>

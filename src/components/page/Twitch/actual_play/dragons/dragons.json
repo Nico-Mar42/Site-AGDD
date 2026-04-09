@@ -41,7 +41,7 @@
         "Rôles": " Moniale, Maitresse de l'ivresse",
         "Description": "\nXiaoyu Kang, plus connue sous le pseudonyme d'Abyss, est une Tieffeline à la peau violette et aux longs cheveux blancs. Ses yeux verts sans pupille et ses épaisses cornes de bouc marquent son apparence singulière.\n\nMoniale du Shi-Huang et prêtresse de Givreuse, elle allie les arts martiaux à la magie divine. Abyss voyage pour apprendre à maîtriser sa part d'ombre et trouver un remède efficace contre la propagation du Chancre."
     },
-    "Thalanir": {
+    "thalanir": {
         "img": "/src/assets/dragons/thalanir.png",
         "Nom": " Thalanir Eryndor",
         "Âge": " Iconnu",

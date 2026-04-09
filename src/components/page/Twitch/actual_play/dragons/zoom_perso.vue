@@ -11,11 +11,9 @@
                 border-radius: 1rem;
                 "
         >
-            
             <div 
-          
                 class="flex flex-row items-center justify-center gap-4">
-                <img :src="img" alt="Image du personnage"
+                <img :src="character?.img" alt="Image du personnage"
                 style="width: 10rem; height: 12rem;"
                 >
                 <div class="flex flex-col items-start justify-center gap-2">
@@ -45,7 +43,12 @@
 <script setup>
 import { computed } from 'vue'
 import data from './dragons.json'
-import img from character?.img
+import EolImg from '../../../../../assets/dragons/eolzranth.png'
+import AntaniImg from '../../../../../assets/dragons/antani.png'
+import AbyssImg from '../../../../../assets/dragons/abyss.png'
+import HeborImg from '../../../../../assets/dragons/hebor.png'
+import ThalanirImg from '../../../../../assets/dragons/thalanir.png'
+
 const props = defineProps({
     Name: String,
 })
@@ -53,6 +56,26 @@ const props = defineProps({
 defineEmits(['close'])
 
 const character = computed(() => {
-    return data[props.Name] || null
+    const char = data[props.Name] || null
+    if (char) {
+        switch(props.Name) {
+            case 'eolzranth':
+                char.img = EolImg
+                break
+            case 'antani':
+                char.img = AntaniImg
+                break
+            case 'abyss':
+                char.img = AbyssImg
+                break
+            case 'hebor':
+                char.img = HeborImg
+                break
+            case 'thalanir':
+                char.img = ThalanirImg
+                break
+        }
+    }
+    return char
 })
 </script>
