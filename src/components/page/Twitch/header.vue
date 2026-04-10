@@ -68,7 +68,7 @@
         <div class="relative group" @mouseleave="delayedClose('actualPlay')" @mouseenter="openMenu('actualPlay')">
           <router-link
             class="text-white text-xl font-bold  uppercase tracking-wide hover:text-gold transition"
-            to="/association"
+            to="/twitch"
             style="
               text-align: center;
               color: white;
