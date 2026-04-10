@@ -34,7 +34,7 @@
         </div>
         <a href="https://twitch.tv/au_gre_des_des" 
         class="flex items-center justify-center gap-3 w-full py-2 bg-[#9146FF] hover:bg-[#772ce8] font-bold text-sm transition-all  ">
-        <svg class="w-5 h-5 text-center text-white" fill="currentColor" viewBox="0 0 24 24">...</svg>
+        <svg class="w-5 h-5  text-white" fill="currentColor" viewBox="0 0 24 24">...</svg>
         REJOINDRE LE CHAT SUR TWITCH
       </a>
       </div>

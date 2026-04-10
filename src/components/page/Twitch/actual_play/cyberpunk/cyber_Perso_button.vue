@@ -1,22 +1,19 @@
 <template >
-  <div class = " ml-2 mr-2 rounded flex flex-col bg-black items-center justify-center"
+  <button class = " ml-2 mr-2 rounded flex flex-col bg-black items-center justify-center"
     :style="{boxShadow: '0 0 10px #9146FF, 0 0 20px #9146FF'}"
-  >
-  <button
     @click="OnPress"
-    class="relative rounded-lg overflow-hidden my-0"
+  >
+  <span
+    class="block hover:grayscale text-lg hover:w-[9rem] hover:h-[11rem] w-[10rem] h-[12rem] 2xl:hover:w-[14rem] 2xl:hover:h-[18rem] 2xl:w-[15rem] 2xl:h-[19rem] relative rounded-lg overflow-hidden my-0"
     :style="{ 
       backgroundImage: `url(${button})`,
       backgroundSize: '100% 100%', 
       backgroundPosition: 'center', 
       backgroundRepeat: 'no-repeat',
-      height: '12rem',
-      width: '10rem',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
       color: Colors,
-      fontSize: '1rem',
       fontFamily: 'Orbitron, sans-serif',
       fontWeight: 'bold',
       textShadow: '2px 2px 6px rgba(255, 255, 255, 1)',
@@ -26,8 +23,8 @@
       cursor: 'pointer',
     }"
   >
-  </button>
-  <div class="text-white mb-1"
+  </span>
+    <div class="text-white mb-1 text-lg 2xl:text-xl cursor-pointer"
     style="
     width: fit-content;
     height: fit-content;
@@ -44,7 +41,7 @@
   >
       {{ text }}
   </div>
-</div>
+</button>
 </template>
 
 <script setup>
