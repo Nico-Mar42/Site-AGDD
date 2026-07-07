@@ -107,14 +107,14 @@
           alt="discord icon"
           style="
           display: block;"
-          v-on:click="openLink('https://discord.gg/rq8tQmCF')"
+          v-on:click="openLink('https://discord.gg/RDNAtcuppF')"
         >
         <h2 
           class="text-white text-lg 2xl:text-2xl mb-8  font-bold hover:underline cursor-pointer"
           style="
             text-align: center;
           "
-          v-on:click="openLink('https://discord.gg/rq8tQmCF')"
+          v-on:click="openLink('https://discord.gg/RDNAtcuppF')"
         >Discord</h2>
       </div>
 
