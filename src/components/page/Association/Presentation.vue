@@ -10,10 +10,11 @@
 
       <img 
         class="rounded-full mx-auto " 
-        src="../../../assets/association/top_art_deco_bg.png" 
+        src="../../../assets/association/top_art_deco_bg.webp" 
         alt="top background"
         style="
         width: 120%;"
+        loading="lazy"
         ></img>
 
       <h1 
@@ -135,10 +136,11 @@
     </div>
       <img 
         class="rounded-full mx-auto " 
-        src="../../../assets/association/bottom_art_deco_bg.png" 
+        src="../../../assets/association/bottom_art_deco_bg.webp" 
         alt="bottom background"
         style="
         width: 120%;"
+        loading="lazy"
         ></img>
     </div>
   </div>
@@ -147,9 +149,9 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import agenda from '../../../assets/association/agenda.png';
-import cadre from '../../../assets/association/cadre text.png';
-import cadrerotate from '../../../assets/association/cadre_rotate.png';
+import agenda from '../../../assets/association/agenda.webp';
+import cadre from '../../../assets/association/cadre text.webp';
+import cadrerotate from '../../../assets/association/cadre_rotate.webp';
 import HeaderDesktop from './header.vue';
 import HeaderMobile from './header_mobile.vue';
 

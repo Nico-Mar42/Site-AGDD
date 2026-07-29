@@ -15,6 +15,7 @@
                 class="flex flex-row items-center justify-center gap-4">
                 <img :src="character?.img" alt="Image du personnage"
                 style="width: 10rem; height: 12rem;"
+                loading="lazy"
                 >
                 <div class="flex flex-col items-start justify-center gap-2">
                     <div class='flex flex-row gap-2'> 
@@ -43,11 +44,11 @@
 <script setup>
 import { computed } from 'vue'
 import data from './dragons.json'
-import EolImg from '../../../../../assets/dragons/eolzranth.png'
-import AntaniImg from '../../../../../assets/dragons/antani.png'
-import AbyssImg from '../../../../../assets/dragons/abyss.png'
-import HeborImg from '../../../../../assets/dragons/hebor.png'
-import ThalanirImg from '../../../../../assets/dragons/thalanir.png'
+import EolImg from '../../../../../assets/dragons/eolzranth.webp'
+import AntaniImg from '../../../../../assets/dragons/antani.webp'
+import AbyssImg from '../../../../../assets/dragons/abyss.webp'
+import HeborImg from '../../../../../assets/dragons/hebor.webp'
+import ThalanirImg from '../../../../../assets/dragons/thalanir.webp'
 
 const props = defineProps({
     Name: String,

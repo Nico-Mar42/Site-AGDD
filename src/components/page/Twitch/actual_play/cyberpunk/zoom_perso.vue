@@ -18,6 +18,7 @@
                 class="flex flex-row items-center justify-center gap-4">
                 <img :src="character?.img" alt="Image du personnage"
                 style="width: 10rem; height: 12rem;"
+                loading="lazy"
                 >
                 <div class="flex flex-col items-start justify-center gap-2">
                     <div class='flex flex-row gap-2'> 
@@ -42,10 +43,10 @@
 <script setup>
 import { computed } from 'vue'
 import data from './cyberpunk.json'
-import floppyImg from '../../../../../assets/cyberpunk/floppy.png'
-import laurenImg from '../../../../../assets/cyberpunk/lauren.png'
-import mariaImg from '../../../../../assets/cyberpunk/maria.png'
-import francaisImg from '../../../../../assets/cyberpunk/francais.png'
+import floppyImg from '../../../../../assets/cyberpunk/floppy.webp'
+import laurenImg from '../../../../../assets/cyberpunk/lauren.webp'
+import mariaImg from '../../../../../assets/cyberpunk/maria.webp'
+import francaisImg from '../../../../../assets/cyberpunk/francais.webp'
 
 const props = defineProps({
     Name: String,

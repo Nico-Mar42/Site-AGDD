@@ -60,6 +60,7 @@
           :src="logo"
           alt="Logo"
           class="w-full h-full hover:grayscale hover:w-[95%] object-contain"
+          loading="lazy"
         />
       </router-link>
 
@@ -108,9 +109,9 @@
 
 <script setup>
 import { ref } from 'vue'
-import cadrehead from '../../../assets/twitch/cadre_header.png'
-import cadre from '../../../assets/twitch/cadre.png'
-import logo from '../../../assets/logo.png'
+import cadrehead from '../../../assets/twitch/cadre_header.webp'
+import cadre from '../../../assets/twitch/cadre.webp'
+import logo from '../../../assets/logo.webp'
 
 const showAssociation = ref(false)
 const showActualPlay = ref(false)

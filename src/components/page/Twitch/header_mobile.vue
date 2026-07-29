@@ -2,7 +2,7 @@
   <nav class="w-full bg-zinc-900 shadow-lg px-4 py-2 flex flex-col h-20 items-center relative z-50">
     <!-- Logo centré avec ombre -->
     <router-link to="/" class="flex justify-center  items-center mb-2">
-      <img :src="logo" alt="Logo" class="w-[8rem] p-[] rounded-full shadow-md bg-zinc-900 " />
+      <img :src="logo" alt="Logo" class="w-[8rem] p-[] rounded-full shadow-md bg-zinc-900 " loading="lazy" />
     </router-link>
 
     <!-- Hamburger menu (inchangé) -->
@@ -59,7 +59,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import logo from '../../../assets/logo.png'
+import logo from '../../../assets/logo.webp'
 
 const menuOpen = ref(false)
 </script>

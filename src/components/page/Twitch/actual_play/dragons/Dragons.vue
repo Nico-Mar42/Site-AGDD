@@ -7,13 +7,14 @@
       <HeaderDesktop v-else />
       <img 
         class="mt-4 z-1 mb-[-25%]"
-        src="../../../../../assets/association/top_art_deco_bg.png" 
+        src="../../../../../assets/association/top_art_deco_bg.webp" 
         alt="top background"
         style="
         width: 120%;"
+        loading="lazy"
       ></img>
       <div class="flex flex-row items-center justify-center pt-7  gap-1">
-        <img class="w-[60%] mb-12 "  src="../../../../../assets/dragons/Dragons_logo.png" alt="Logo">
+        <img class="w-[60%] mb-12 "  src="../../../../../assets/dragons/Dragons_logo.webp" alt="Logo" loading="lazy">
         
       </div>
 
@@ -142,10 +143,11 @@
       />
       <img 
         class="mt-4 z-1 mt-[-15%] "
-        src="../../../../../assets/association/bottom_art_deco_bg.png" 
+        src="../../../../../assets/association/bottom_art_deco_bg.webp" 
         alt="top background"
         style="
         width: 120%;"
+        loading="lazy"
       ></img>  
     </div>
   </div>div
@@ -155,11 +157,11 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import widgetAPButton from './dragons_Perso_button.vue'
 import zoomPerso from './zoom_perso.vue'
-import EolImg from '../../../../../assets/dragons/eolzranth.png'
-import AntaniImg from '../../../../../assets/dragons/antani.png'
-import AbyssImg from '../../../../../assets/dragons/abyss.png'
-import HeborImg from '../../../../../assets/dragons/hebor.png'
-import ThalanirImg from '../../../../../assets/dragons/thalanir.png'
+import EolImg from '../../../../../assets/dragons/eolzranth.webp'
+import AntaniImg from '../../../../../assets/dragons/antani.webp'
+import AbyssImg from '../../../../../assets/dragons/abyss.webp'
+import HeborImg from '../../../../../assets/dragons/hebor.webp'
+import ThalanirImg from '../../../../../assets/dragons/thalanir.webp'
 import HeaderDesktop from '../../../Association/header.vue';
 import HeaderMobile from '../../../Association/header_mobile.vue';
 

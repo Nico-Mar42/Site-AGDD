@@ -10,10 +10,11 @@
 
       <img 
         class="rounded-full mx-auto mb-[-8rem]" 
-        src="../../../assets/association/top_art_deco_bg.png" 
+        src="../../../assets/association/top_art_deco_bg.webp" 
         alt="top background"
         style="
         width: 120%;"
+        loading="lazy"
         >
         <div class="flex flex-row justify-center items-center mb-6 mt-[4rem] 2xl:mt-[-5rem]">
           <h1 
@@ -86,10 +87,11 @@
     </div>
       <img 
         class="rounded-full mx-auto " 
-        src="../../../assets/association/bottom_art_deco_bg.png" 
+        src="../../../assets/association/bottom_art_deco_bg.webp" 
         alt="bottom background"
         style="
         width: 120%;"
+        loading="lazy"
         ></img>
     </div>
   </div>
@@ -97,7 +99,7 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import logo from '../../../assets/logo.png';
+import logo from '../../../assets/logo.webp';
 import HeaderDesktop from './header.vue';
 import HeaderMobile from './header_mobile.vue';
 

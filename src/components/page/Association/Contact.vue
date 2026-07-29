@@ -10,10 +10,11 @@
 
       <img 
         class="rounded-full mx-auto mb-[-8rem]" 
-        src="../../../assets/association/top_art_deco_bg.png" 
+        src="../../../assets/association/top_art_deco_bg.webp" 
         alt="top background"
         style="
         width: 120%;"
+        loading="lazy"
         >
         <div class="flex flex-row justify-center items-center mb-6 mt-[4rem] 2xl:mt-[-5rem]">
           <h1 
@@ -68,11 +69,11 @@
           }">
           <img 
             class="mx-auto mb-2 cursor-pointer hover:grayscale mt-6 w-[20%] hover:w-[19%] " 
-            src="../../../assets/association/mail.png" 
+            src="../../../assets/association/mail.webp" 
             alt="email icon"
             style="
             width: 18%;"
-            
+            loading="lazy"
             v-on:click="openLink('mailto:augredesdes@gmail.com')"
 
           >
@@ -86,11 +87,12 @@
           >contact@augredesdes.fr</h2>
           <img  
             class="mx-auto mb-2 cursor-pointer hover:grayscale mt-6 w-[20%] hover:w-[19%] " 
-            src="../../../assets/association/discord.png" 
+            src="../../../assets/association/discord.webp" 
             alt="discord icon"
             style="
             width: 20%;
             display: block;"
+            loading="lazy"
             v-on:click="openDiscord('https://discord.gg/VRcY3ym953')"
           >
           <h2 
@@ -132,20 +134,21 @@
       </div>    
       <img 
         class="rounded-full mx-auto " 
-        src="../../../assets/association/bottom_art_deco_bg.png" 
+        src="../../../assets/association/bottom_art_deco_bg.webp" 
         alt="bottom background"
         style="
         width: 120%;"
+        loading="lazy"
       ></img> 
     </div>  
   </div>
 </template>
 
 <script setup>
-import logo from '../../../assets/logo.png';
+import logo from '../../../assets/logo.webp';
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import cadre from '../../../assets/association/cadre text.png';
-import cadrerotate from '../../../assets/association/cadre_rotate.png';
+import cadre from '../../../assets/association/cadre text.webp';
+import cadrerotate from '../../../assets/association/cadre_rotate.webp';
 import HeaderDesktop from './header.vue';
 import HeaderMobile from './header_mobile.vue';
 

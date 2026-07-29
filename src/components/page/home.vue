@@ -8,7 +8,7 @@
     >
       <div class="mt-8 mb-4 2xl:flex 2xl:flex-col 2xl:gap-5">
         
-        <img class="lg:w-[60vh] lg:h-[60vh] rounded-full mx-auto" src="../../assets/logo.png" alt="Logo">
+        <img class="lg:w-[60vh] lg:h-[60vh] rounded-full mx-auto" src="../../assets/logo.webp" alt="Logo" loading="lazy">
         <h2 
         class="text-2xl lg:text-4xl font-bold text-white mb-4 "
         style="
@@ -93,7 +93,7 @@
 </template>
 
 <script setup>
-import bgImage from '../../assets/twitch/parchment.png'
-import button from '../../assets/twitch/button.png'
+import bgImage from '../../assets/twitch/parchment.webp'
+import button from '../../assets/twitch/button.webp'
 
 </script>

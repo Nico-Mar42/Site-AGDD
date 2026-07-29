@@ -7,26 +7,68 @@ import Global from '../components/page/Twitch/Global.vue'
 import Dragons from '../components/page/Twitch/actual_play/dragons/Dragons.vue'
 import Cyberpunk from '../components/page/Twitch/actual_play/cyberpunk/Cyberpunk.vue'
 import terra from '../components/page/Twitch/actual_play/terra_nova/Terra_nova.vue'
-import { createRouter, createWebHashHistory } from 'vue-router' // Changez createWebHistory par createWebHashHistory
 
+// CORRECTION : Importe createWebHistory au lieu de createWebHashHistory
+import { createRouter, createWebHistory } from 'vue-router' 
 
-// ... autres imports de pages
 const routes = [
-  { path: '/', component: Home },
-  { path: '/association', component: Presentation },
-  { path: '/association/agenda', component: Agenda },
-  { path: '/association/contact', component: Contact },
-  { path: '/association/reseaux', component: Reseaux },
-  { path: '/twitch/', component: Global },
-  { path: '/twitch/dragons', component: Dragons },
-  { path: '/twitch/cyberpunk', component: Cyberpunk },
-  { path: '/twitch/terra-nova', component: terra },
-  // ... autres pages
+  { 
+    path: '/',
+    component: Home,
+    meta: { title: 'Accueil - Au Gré des Dés' } 
+  },
+  { 
+    path: '/association',
+    component: Presentation,
+    meta: { title: 'Association - Au Gré des Dés' } 
+  },
+  { 
+    path: '/association/agenda',
+    component: Agenda,
+    meta: { title: 'Agenda - Au Gré des Dés' } 
+  },
+  { 
+    path: '/association/contact',
+    component: Contact,
+    meta: { title: 'Contact - Au Gré des Dés' } 
+  },
+  { 
+    path: '/association/reseaux',
+    component: Reseaux,
+    meta: { title: 'Réseaux - Au Gré des Dés' } 
+  },
+  { 
+    path: '/twitch', // Note : J'ai enlevé le "/" final pour plus de propreté
+    component: Global,
+    meta: { title: 'Twitch - Au Gré des Dés' } 
+  },
+  { 
+    path: '/twitch/dragons',
+    component: Dragons,
+    meta: { title: 'Dragons - Au Gré des Dés' } 
+  },
+  { 
+    path: '/twitch/cyberpunk',
+    component: Cyberpunk,
+    meta: { title: 'Cyberpunk - Au Gré des Dés' } 
+  },
+  { 
+    path: '/twitch/terra-nova',
+    component: terra,
+    meta: { title: 'Terra Nova - Au Gré des Dés' } 
+  }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  // CORRECTION : Utilise createWebHistory() sans le hash #
+  history: createWebHistory(),
   routes
 })
+
+// Mise à jour automatique du titre de l'onglet
+router.afterEach((to) => {
+  const title = to.meta.title || 'Au Gré Des Dés';
+  document.title = title;
+});
 
 export default router

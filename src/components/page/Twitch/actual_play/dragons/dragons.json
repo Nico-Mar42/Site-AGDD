@@ -1,7 +1,7 @@
 {
     
     "eolzranth": {
-        "img": "/src/assets/dragons/eolzranth.png",
+        "img": "/src/assets/dragons/eolzranth.webp",
         "Nom": " Eolzranth",
         "race": " Drakeide de cuivre",
         "Âge": " Iconnu",
@@ -12,7 +12,7 @@
         
     },
     "antani": {
-        "img": "/src/assets/dragons/antani.png",
+        "img": "/src/assets/dragons/antani.webp",
         "Nom": " Antani",
         "race": " Ulkani",
         "Âge": " Iconnu",
@@ -22,7 +22,7 @@
         "Description": "\nVenant des plaines du Grand Kaan, Antani est un Ulkan animé par une soif insatiable de savoir. Ce jeune lettré — un homme-bouc impressionnant de 3 mètres de haut — a rejoint un groupe d'aventuriers pour atteindre la Cité Franche, le cœur cosmopolite d'Eana.\n\nArmé de sa massue et de ses livres, il parcourt le monde avec curiosité et une pointe de naïveté, bien décidé à écrire la véritable histoire des récits qui l'habitent."
     },
     "hebor": {
-        "img": "/src/assets/dragons/hebor.png",
+        "img": "/src/assets/dragons/hebor.webp",
         "Nom": " Hebor Terdinor",
         "Âge": " Iconnu",
         "race": " Drakeide de Bronze",
@@ -32,7 +32,7 @@
         "Description": "\nArraché à sa famille avant même son éclosion, Hebor est un drakéide au destin singulier. Recueilli et élevé par un cercle druidique, il a embrassé la voie de la nature pour devenir druide à son tour.\n\nUne fois adulte, il s'est lancé dans l'aventure afin de lever le voile sur ses origines et retrouver ses racines."
     },
     "abyss": {
-        "img": "/src/assets/dragons/abyss.png",
+        "img": "/src/assets/dragons/abyss.webp",
         "Nom": " Abyss",
         "Âge": " Iconnu",
         "race": "Tieffeline",
@@ -42,7 +42,7 @@
         "Description": "\nXiaoyu Kang, plus connue sous le pseudonyme d'Abyss, est une Tieffeline à la peau violette et aux longs cheveux blancs. Ses yeux verts sans pupille et ses épaisses cornes de bouc marquent son apparence singulière.\n\nMoniale du Shi-Huang et prêtresse de Givreuse, elle allie les arts martiaux à la magie divine. Abyss voyage pour apprendre à maîtriser sa part d'ombre et trouver un remède efficace contre la propagation du Chancre."
     },
     "thalanir": {
-        "img": "/src/assets/dragons/thalanir.png",
+        "img": "/src/assets/dragons/thalanir.webp",
         "Nom": " Thalanir Eryndor",
         "Âge": " Iconnu",
         "P_genre": "Joueur",

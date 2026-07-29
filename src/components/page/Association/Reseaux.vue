@@ -10,10 +10,11 @@
 
       <img 
         class="rounded-full mx-auto mb-[-8rem]" 
-        src="../../../assets/association/top_art_deco_bg.png" 
+        src="../../../assets/association/top_art_deco_bg.webp" 
         alt="top background"
         style="
         width: 120%;"
+        loading="lazy"
       ></img>
       <div class="flex flex-row justify-center items-center mb-6 mt-[4rem] 2xl:mt-[-5rem]">
 
@@ -43,9 +44,9 @@
         >Retrouvez nous sur :</h2>
         <img 
           class="mx-auto mb-2 cursor-pointer hover:grayscale w-[20%] hover:w-[19%] " 
-          src="../../../assets/association/twitch.png" 
+          src="../../../assets/association/twitch.webp" 
           alt="twitch icon"
-
+          loading="lazy"
           v-on:click="openLink('https://www.twitch.tv/au_gre_des_des')"
         >
         <h2 
@@ -58,10 +59,11 @@
         >Twitch</h2>
         <img 
           class="mx-auto mb-2 cursor-pointer hover:grayscale w-[20%] hover:w-[19%] " 
-          src="../../../assets/association/youtube.png" 
+          src="../../../assets/association/youtube.webp" 
           alt="youtube icon"
           style="
           display: block;"
+          loading="lazy"
           v-on:click="openLink('https://www.youtube.com/@AuGredesDes')"
         >
         <h2 
@@ -73,10 +75,11 @@
         >YouTube</h2>
         <img 
           class="mx-auto mb-2 cursor-pointer hover:grayscale w-[20%] hover:w-[19%] " 
-          src="../../../assets/association/insta.png" 
+          src="../../../assets/association/insta.webp" 
           alt="instagram icon"
           style="
           display: block;"
+          loading="lazy"
           v-on:click="openLink('https://www.instagram.com/augredesdes?igsh=bDlsYTRueGRlcTVh')"
         >
         <h2 
@@ -88,10 +91,11 @@
         >Instagram</h2>
         <img 
           class="mx-auto mb-2 cursor-pointer hover:grayscale w-[12%] hover:w-[11%] " 
-          src="../../../assets/association/facebook.png" 
+          src="../../../assets/association/facebook.webp" 
           alt="facebook icon"
           style="
           display: block;"
+          loading="lazy"
           v-on:click="openLink('https://www.facebook.com/people/Au-gr%C3%A9-des-d%C3%A9s/61565776881369/')"
         >
         <h2 
@@ -103,10 +107,11 @@
         >Facebook</h2>
         <img 
           class="mx-auto mb-2 cursor-pointer hover:grayscale w-[20%] hover:w-[19%] " 
-          src="../../../assets/association/discord.png" 
+          src="../../../assets/association/discord.webp" 
           alt="discord icon"
           style="
           display: block;"
+          loading="lazy"
           v-on:click="openLink('https://discord.gg/RDNAtcuppF')"
         >
         <h2 
@@ -147,10 +152,11 @@
       </div>   
       <img 
         class="rounded-full mx-auto " 
-        src="../../../assets/association/bottom_art_deco_bg.png" 
+        src="../../../assets/association/bottom_art_deco_bg.webp" 
         alt="bottom background"
         style="
         width: 120%;"
+        loading="lazy"
       ></img> 
     </div>  
   </div>
@@ -158,8 +164,8 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import logo from '../../../assets/logo.png';
-import textframe from '../../../assets/association/cadre text.png';
+import logo from '../../../assets/logo.webp';
+import textframe from '../../../assets/association/cadre text.webp';
 import HeaderDesktop from './header.vue';
 import HeaderMobile from './header_mobile.vue';
 

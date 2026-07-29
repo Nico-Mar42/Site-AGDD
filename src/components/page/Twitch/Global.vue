@@ -8,10 +8,11 @@
 
       <img 
         class="mt-4 z-1 mb-[-25%]"
-        src="../../../assets/twitch/cadre_up.png" 
+        src="../../../assets/twitch/cadre_up.webp" 
         alt="top background"
         style="
         width: 120%;"
+        loading="lazy"
         ></img>
 
       <div class="flex flex-row items-center justify-center pt-7 mb-5">
@@ -124,10 +125,11 @@
       </div>
       <img 
         class="mt-4 z-1 mt-[-25%] "
-        src="../../../assets/twitch/cadre_down.png" 
+        src="../../../assets/twitch/cadre_down.webp" 
         alt="top background"
         style="
         width: 120%;"
+        loading="lazy"
         ></img>
     </div>
   </div>
@@ -135,9 +137,9 @@
 
 <script setup>
 import widgetAPButton from './widget_AP_button.vue'
-import cyberImg from '../../../assets/twitch/bouton/b_cyber.jpg'
-import dragonsImg from '../../../assets/twitch/bouton/b_dragons.jpg'
-import terraImg from '../../../assets/twitch/bouton/b_terra.jpg'
+import cyberImg from '../../../assets/twitch/bouton/b_cyber.webp'
+import dragonsImg from '../../../assets/twitch/bouton/b_dragons.webp'
+import terraImg from '../../../assets/twitch/bouton/b_terra.webp'
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import HeaderDesktop from './header.vue';
 import HeaderMobile from './header_mobile.vue';

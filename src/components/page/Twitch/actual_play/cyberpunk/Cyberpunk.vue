@@ -7,13 +7,14 @@
       <HeaderDesktop v-else />
       <img 
         class="mt-4 z-1 mb-[-25%]"
-        src="../../../../../assets/twitch/cadre_up.png" 
+        src="../../../../../assets/twitch/cadre_up.webp" 
         alt="top background"
         style="
         width: 120%;"
+        loading="lazy"
       ></img>
       <div class="flex flex-row items-center justify-center pt-7  gap-1">
-        <img class="w-[70%] mb-12 " src="../../../../../assets/twitch/title_cyber.png" alt="Logo">
+        <img class="w-[70%] mb-12 " src="../../../../../assets/twitch/title_cyber.webp" alt="Logo" loading="lazy">
         
       </div>
 
@@ -141,10 +142,11 @@
       />
           <img 
         class="mt-4 z-1 mt-[-25%] "
-        src="../../../../../assets/twitch/cadre_down.png" 
+        src="../../../../../assets/twitch/cadre_down.webp" 
         alt="top background"
         style="
         width: 120%;"
+        loading="lazy"
         ></img>  
     </div>
     
@@ -155,10 +157,10 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import widgetAPButton from './cyber_Perso_button.vue'
 import zoomPerso from './zoom_perso.vue'
-import floppyImg from '../../../../../assets/cyberpunk/floppy.png'
-import laurenImg from '../../../../../assets/cyberpunk/lauren.png'
-import mariaImg from '../../../../../assets/cyberpunk/maria.png'
-import francaisImg from '../../../../../assets/cyberpunk/francais.png'
+import floppyImg from '../../../../../assets/cyberpunk/floppy.webp'
+import laurenImg from '../../../../../assets/cyberpunk/lauren.webp'
+import mariaImg from '../../../../../assets/cyberpunk/maria.webp'
+import francaisImg from '../../../../../assets/cyberpunk/francais.webp'
 import HeaderDesktop from '../../header.vue';
 import HeaderMobile from '../../header_mobile.vue';
 
