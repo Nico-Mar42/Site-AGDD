@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://augredesdes.fr/</loc>
+    <lastmod>2024-07-29</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <!-- Page Association -->
+  <url>
+    <loc>https://augredesdes.fr//association</loc>
+    <lastmod>2024-07-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Page Twitch Global -->
+  <url>
+    <loc>https://augredesdes.fr//twitch</loc>
+    <lastmod>2024-07-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Contact -->
+  <url>
+    <loc>https://augredesdes.fr//association/contact</loc>
+    <lastmod>2024-07-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <!-- Actual Play Dragons -->
+  <url>
+    <loc>https://augredesdes.fr//twitch/dragons</loc>
+    <lastmod>2024-07-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>
